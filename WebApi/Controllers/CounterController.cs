@@ -20,7 +20,7 @@ namespace WebApi.Controllers
         [HttpGet(Name = "GetCounter")]
         public string Get()
         {
-            string key = "Counter";
+            const string key = "Counter";
             string? result = null;
             try
             {
